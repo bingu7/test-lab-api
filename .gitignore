@@ -1,0 +1,26 @@
+# 运行时产物（本地生成，不要提交）
+lab.db
+lab.db-wal
+lab.db-shm
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Pytest / 测试产物
+.pytest_cache/
+.coverage
+htmlcov/
+allure-results/
+allure-report/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
